@@ -4,10 +4,7 @@ import Joke from "./Joke";
 export default function App() {
 
     return (
-        <>
-            <h1
-                style={{textAlign:"center"}}
-            >Jokes</h1>
+        <div>
             <Joke 
                 setup="How did the hacker escape the police?"
                 punchline="He just ransomware!"
@@ -28,6 +25,6 @@ export default function App() {
             <Joke 
                 punchline="I look in the mirror everyday in search for the best man alive and i keep seeing me"
             />
-        </>
+        </div>
     )
 }
