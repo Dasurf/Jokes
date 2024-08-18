@@ -3,6 +3,7 @@ import Joke from "./Joke";
 import JokesData from "./JokesData";
 
 export default function App() {
+
     const jokeElements = JokesData.map((jokes) => {
         return <Joke 
             setup={jokes.setup}
